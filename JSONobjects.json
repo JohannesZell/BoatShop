@@ -1,6 +1,4 @@
-
-{
-    "boats": [
+[
     {
         "id": 1,
         "name": "Neue Deutsche Welle",
@@ -16,7 +14,7 @@
             "Echholzboden"
         ],
         "license": "A1B2C3",
-        "picturePath": "//", //https://www.boote-magazin.de/typo3temp/pics/e_0543905fb1.jpeg
+        "picturePath": "//https://www.boote-magazin.de/typo3temp/pics/e_0543905fb1.jpeg",
         "description": "ZEE 21 exklusiv: Wellenantriebe wie bei diesem Neuling findet man in offenen Spaßbooten kaum. Selbst von den Heckwellen mancher Frachter lässt sich das Boot bei unserem Test nicht beeindrucken.",
         "image": "EatADickFabiLol",
         "location": "Hamburger Hafen"
@@ -40,7 +38,7 @@
             "Modulare Abdeckung"
         ],
         "license": "Y0134M4",
-        "picturePath": "//", //https://www.boote-magazin.de/typo3temp/pics/d_22d05b0424.jpeg
+        "picturePath": "//https://www.boote-magazin.de/typo3temp/pics/d_22d05b0424.jpeg",
         "description": "Focus Power 33: Ein Tourenboot für die vierköpfige Crew, die See- und Binnenrevier auf eigene Faust erkunden will.",
         "image": "EatADickFabiLol",
         "location": "Hafen Oakland"
@@ -61,10 +59,9 @@
             "Rissige Segel"
         ],
         "license": "UCVK",
-        "picturePath": "//", //https://de.wikipedia.org/wiki/Kruzenshtern_(Schiff)#/media/Datei:Krusenstern.wmt.jpg
+        "picturePath": "//https://de.wikipedia.org/wiki/Kruzenshtern_(Schiff)#/media/Datei:Krusenstern.wmt.jpg",
         "description": "Auf der Bounty wurde gemeutert, munkelt man. Hier werde ich jeden Kiel holen lassen, der auch nur in die Richtung des Kapitäns schaut. -Carl Schuberg",
         "image": "EatADickFabiLol", 
         "location": "Kaliningrad"
     }
-    ]
-}
+]
