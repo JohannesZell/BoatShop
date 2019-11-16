@@ -1,4 +1,4 @@
-from flask import Flask, send_from_directory
+from flask import Flask, send_from_directory, jsonify
 import os
 import json
 app = Flask(__name__)
@@ -15,7 +15,8 @@ def getBoats():
     jsonBoat = open('JSONobjects.json')
     jsonBoatStr = jsonBoat.read()
     boatData = json.loads(jsonBoatStr)
-    return boatData
+    print(boatData)
+    return jsonify(boatData)
 
 if __name__ == '__main__':
     # jsonBoat = open('JSONobjects.json')
