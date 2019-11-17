@@ -19,12 +19,4 @@ def getBoats():
     return jsonify(boatData)
 
 if __name__ == '__main__':
-    # jsonBoat = open('JSONobjects.json')
-    # jsonBoatStr = jsonBoat.read()
-    # boatData = json.loads(jsonBoatStr)
-    # for key in boatData:
-    #     print(key["id"])
-    #     id = key["id"]
-    #     for value in key.items():
-    #         print(boatData[id-1]["name"])
     app.run(host='0.0.0.0', port=port, debug=True)
