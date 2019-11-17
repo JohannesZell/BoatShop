@@ -1,3 +1,3 @@
 # Simple Boat Shop
 
-A simple and small website containing informations about boats
+A simple and small website containing informations about boats.
