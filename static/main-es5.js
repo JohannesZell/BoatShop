@@ -39,18 +39,7 @@
         /***/ (function (module, __webpack_exports__, __webpack_require__) {
             "use strict";
             __webpack_require__.r(__webpack_exports__);
-            /* harmony default export */ __webpack_exports__["default"] = ("<div class=\"container-fluid\"  style=\"float: left; margin: 10px\">\n    <ul style=\"list-style-type:none\" *ngFor=\"let boat of boatList\">\n    <li>   \n        <mat-card class=\"boat-card\">\n            <mat-card-header>\n              <!--<div mat-card-avatar class=\"example-header-image\"></div>-->\n              <mat-card-title>{{boat.name}}</mat-card-title>\n              <mat-card-subtitle>{{boat.owner}}</mat-card-subtitle>\n            </mat-card-header>\n            <img mat-card-image src=\"https://keyassets.timeincuk.net/inspirewp/live/wp-content/uploads/sites/18/2019/03/sunseeker-predator-50-boat-test-running-shot-credit-richard-langdon.jpg\" alt=\"Photo of a Boat\">\n            <mat-card-content>\n                    <p>{{boat.description}}\n                        {{boat.id}}\n                    </p>\n            </mat-card-content>\n            <mat-card-actions>\n              <button mat-raised-button (click)=\"openDetails(boat.id)\" color=\"primary\">Details</button>\n            </mat-card-actions>\n        </mat-card>\n    </li>\n    </ul>\n</div>\n\n<div *ngIf=\"selectedBoat.id != -1\" >\n<div class=\"container-fluid\" style=\"float: right; margin: 25px\">\n    <mat-card class=\"boat-details\">\n        <mat-card-title>\n            {{selectedBoat.name}}\n        </mat-card-title>\n        <img mat-card-image [src]=\"selectedBoat.image\" alt=\"Boat\" style=\"max-height: 600px;\">\n        \n        <mat-card-content>\n            {{selectedBoat.description}}\n            <ul style=\"list-style-type: none\">\n                <li>Owned by: {{selectedBoat.owner}}</li>\n                <li>ship class: {{selectedBoat.shipClass}}</li>\n                <li>{{selectedBoat.model}}</li>\n                <li>{{selectedBoat.location}}</li>\n                <li>{{selectedBoat.constructionYear}}</li>\n                <li>{{selectedBoat.license}}</li>\n                <li>{{selectedBoat.draft}}</li>\n                <li>{{selectedBoat.equipment}}</li>\n            </ul>\n        </mat-card-content>\n    </mat-card>\n</div>\n</div>");
-            /***/ 
-        }),
-        /***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/chat/chat.component.html": 
-        /*!********************************************************************************!*\
-          !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/chat/chat.component.html ***!
-          \********************************************************************************/
-        /*! exports provided: default */
-        /***/ (function (module, __webpack_exports__, __webpack_require__) {
-            "use strict";
-            __webpack_require__.r(__webpack_exports__);
-            /* harmony default export */ __webpack_exports__["default"] = ("<p>chat works!</p>\n\n");
+            /* harmony default export */ __webpack_exports__["default"] = ("{{this.boatList[0].name}}\n{{dataBuffer | json}}\n\n<div class=\"container-fluid\"  style=\"float: left; margin: 10px\">\n    <ul style=\"list-style-type:none\" *ngFor=\"let boat of boatList\">\n    <li>   \n        <mat-card class=\"boat-card\">\n            <mat-card-header>\n              <!--<div mat-card-avatar class=\"example-header-image\"></div>-->\n              <mat-card-title>{{boat.name}}</mat-card-title>\n              <mat-card-subtitle>{{boat.owner}}</mat-card-subtitle>\n            </mat-card-header>\n            <img mat-card-image src=\"https://keyassets.timeincuk.net/inspirewp/live/wp-content/uploads/sites/18/2019/03/sunseeker-predator-50-boat-test-running-shot-credit-richard-langdon.jpg\" alt=\"Photo of a Boat\">\n            <mat-card-content>\n                    <p>{{boat.description}}\n                        {{boat.id}}\n                    </p>\n            </mat-card-content>\n            <mat-card-actions>\n              <button mat-raised-button (click)=\"openDetails(boat.id)\" color=\"primary\">Details</button>\n            </mat-card-actions>\n        </mat-card>\n    </li>\n    </ul>\n</div>\n\n<div *ngIf=\"selectedBoat.id != -1\" >\n<div class=\"container-fluid\" style=\"float: right; margin: 25px\">\n    <mat-card class=\"boat-details\">\n        <mat-card-title>\n            {{selectedBoat.name}}\n        </mat-card-title>\n        <img mat-card-image [src]=\"selectedBoat.image\" alt=\"Boat\" style=\"max-height: 600px;\">\n        \n        <mat-card-content>\n            {{selectedBoat.description}}\n            <ul style=\"list-style-type: none\">\n                <li>Owned by: {{selectedBoat.owner}}</li>\n                <li>Ship class: {{selectedBoat.shipClass}}</li>\n                <li>Model: {{selectedBoat.model}}</li>\n                <li>Berth: {{selectedBoat.location}}</li>\n                <li>Construction year: {{selectedBoat.constructionYear}}</li>\n                <li>Owner: {{selectedBoat.license}}</li>\n                <li>Draft: {{selectedBoat.draft}}</li>\n                <li>Equipment: {{selectedBoat.equipment}}</li>\n            </ul>\n        </mat-card-content>\n    </mat-card>\n</div>\n</div>\n");
             /***/ 
         }),
         /***/ "./node_modules/tslib/tslib.es6.js": 
@@ -379,15 +368,15 @@
             ], AppRoutingModule);
             /***/ 
         }),
-        /***/ "./src/app/app.component.css": 
-        /*!***********************************!*\
-          !*** ./src/app/app.component.css ***!
-          \***********************************/
+        /***/ "./src/app/app.component.scss": 
+        /*!************************************!*\
+          !*** ./src/app/app.component.scss ***!
+          \************************************/
         /*! exports provided: default */
         /***/ (function (module, __webpack_exports__, __webpack_require__) {
             "use strict";
             __webpack_require__.r(__webpack_exports__);
-            /* harmony default export */ __webpack_exports__["default"] = ("\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2FwcC5jb21wb25lbnQuY3NzIn0= */");
+            /* harmony default export */ __webpack_exports__["default"] = ("\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2FwcC5jb21wb25lbnQuc2NzcyJ9 */");
             /***/ 
         }),
         /***/ "./src/app/app.component.ts": 
@@ -403,16 +392,15 @@
             /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
             var AppComponent = /** @class */ (function () {
                 function AppComponent() {
-                    this.title = 'web-app';
+                    this.title = 'boatShop';
                 }
                 return AppComponent;
             }());
             AppComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
                 Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
                     selector: 'app-root',
-                    //templateUrl: './app.component.html',
                     template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./app.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/app.component.html")).default,
-                    styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./app.component.css */ "./src/app/app.component.css")).default]
+                    styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./app.component.scss */ "./src/app/app.component.scss")).default]
                 })
             ], AppComponent);
             /***/ 
@@ -431,11 +419,11 @@
             /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
             /* harmony import */ var _app_routing_module__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./app-routing.module */ "./src/app/app-routing.module.ts");
             /* harmony import */ var _app_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./app.component */ "./src/app/app.component.ts");
-            /* harmony import */ var _chat_chat_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./chat/chat.component */ "./src/app/chat/chat.component.ts");
-            /* harmony import */ var _boat_boat_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./boat/boat.component */ "./src/app/boat/boat.component.ts");
-            /* harmony import */ var _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @angular/platform-browser/animations */ "./node_modules/@angular/platform-browser/fesm2015/animations.js");
-            /* harmony import */ var _angular_material_card__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! @angular/material/card */ "./node_modules/@angular/material/esm2015/card.js");
-            /* harmony import */ var _angular_material_button__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! @angular/material/button */ "./node_modules/@angular/material/esm2015/button.js");
+            /* harmony import */ var _boat_boat_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./boat/boat.component */ "./src/app/boat/boat.component.ts");
+            /* harmony import */ var _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @angular/platform-browser/animations */ "./node_modules/@angular/platform-browser/fesm2015/animations.js");
+            /* harmony import */ var _angular_material_card__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @angular/material/card */ "./node_modules/@angular/material/esm2015/card.js");
+            /* harmony import */ var _angular_material_button__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! @angular/material/button */ "./node_modules/@angular/material/esm2015/button.js");
+            /* harmony import */ var _angular_common_http__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! @angular/common/http */ "./node_modules/@angular/common/fesm2015/http.js");
             var AppModule = /** @class */ (function () {
                 function AppModule() {
                 }
@@ -445,20 +433,71 @@
                 Object(_angular_core__WEBPACK_IMPORTED_MODULE_2__["NgModule"])({
                     declarations: [
                         _app_component__WEBPACK_IMPORTED_MODULE_4__["AppComponent"],
-                        _chat_chat_component__WEBPACK_IMPORTED_MODULE_5__["ChatComponent"],
-                        _boat_boat_component__WEBPACK_IMPORTED_MODULE_6__["BoatComponent"],
+                        _boat_boat_component__WEBPACK_IMPORTED_MODULE_5__["BoatComponent"],
                     ],
                     imports: [
                         _angular_platform_browser__WEBPACK_IMPORTED_MODULE_1__["BrowserModule"],
                         _app_routing_module__WEBPACK_IMPORTED_MODULE_3__["AppRoutingModule"],
-                        _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_7__["BrowserAnimationsModule"],
-                        _angular_material_card__WEBPACK_IMPORTED_MODULE_8__["MatCardModule"],
-                        _angular_material_button__WEBPACK_IMPORTED_MODULE_9__["MatButtonModule"],
+                        _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_6__["BrowserAnimationsModule"],
+                        _angular_material_card__WEBPACK_IMPORTED_MODULE_7__["MatCardModule"],
+                        _angular_material_button__WEBPACK_IMPORTED_MODULE_8__["MatButtonModule"],
+                        _angular_common_http__WEBPACK_IMPORTED_MODULE_9__["HttpClientModule"]
                     ],
                     providers: [],
                     bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_4__["AppComponent"]]
                 })
             ], AppModule);
+            /***/ 
+        }),
+        /***/ "./src/app/boat-loader.service.ts": 
+        /*!****************************************!*\
+          !*** ./src/app/boat-loader.service.ts ***!
+          \****************************************/
+        /*! exports provided: BoatLoaderService */
+        /***/ (function (module, __webpack_exports__, __webpack_require__) {
+            "use strict";
+            __webpack_require__.r(__webpack_exports__);
+            /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "BoatLoaderService", function () { return BoatLoaderService; });
+            /* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+            /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+            /* harmony import */ var _angular_common_http__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/common/http */ "./node_modules/@angular/common/fesm2015/http.js");
+            /* harmony import */ var rxjs__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! rxjs */ "./node_modules/rxjs/_esm2015/index.js");
+            var BoatLoaderService = /** @class */ (function () {
+                function BoatLoaderService(http) {
+                    this.http = http;
+                    this.boatsUrl = 'http://localhost/getBoats';
+                    this.boat = [];
+                }
+                BoatLoaderService.prototype.getBoats = function () {
+                    // return this.http.get<Boat[]>("http://boatshop.eu-gb.mybluemix.net/getBoats").pipe(
+                    //       tap(data => console.log('All: ' + JSON.stringify(data))),
+                    //       catchError(this.handleError));
+                    return this.http.get("http://boatshop.eu-gb.mybluemix.net/getBoats");
+                };
+                BoatLoaderService.prototype.handleError = function (err) {
+                    var errorMessage = '';
+                    if (err.error instanceof ErrorEvent) {
+                        errorMessage = "An error occurred: " + err.error.message;
+                    }
+                    else {
+                        errorMessage = "Server returned code: " + err.status + ", error message is: " + err.message;
+                    }
+                    console.error(errorMessage);
+                    return Object(rxjs__WEBPACK_IMPORTED_MODULE_3__["throwError"])(errorMessage);
+                };
+                BoatLoaderService.prototype.getHello = function () {
+                    return this.http.get("http://localhost:5000/getHello");
+                };
+                return BoatLoaderService;
+            }());
+            BoatLoaderService.ctorParameters = function () { return [
+                { type: _angular_common_http__WEBPACK_IMPORTED_MODULE_2__["HttpClient"] }
+            ]; };
+            BoatLoaderService = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+                Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Injectable"])({
+                    providedIn: 'root'
+                })
+            ], BoatLoaderService);
             /***/ 
         }),
         /***/ "./src/app/boat/boat.component.css": 
@@ -483,21 +522,29 @@
             /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "BoatComponent", function () { return BoatComponent; });
             /* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
             /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+            /* harmony import */ var _boat_loader_service__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../boat-loader.service */ "./src/app/boat-loader.service.ts");
             var BoatComponent = /** @class */ (function () {
-                function BoatComponent() {
-                    this.boatList = [];
+                function BoatComponent(boatService) {
+                    this.boatService = boatService;
+                    this.boatList = [{ id: 0 }];
                     this.selectedBoat = { id: -1 };
                 }
                 BoatComponent.prototype.ngOnInit = function () {
+                    var _this = this;
                     alert("component Boat called");
-                    this.readBoats();
+                    //this.readBoats();
+                    this.boatService.getBoats()
+                        .subscribe(function (value) {
+                        _this.boatList = value;
+                        _this.readBoats();
+                    }, function (error) {
+                        alert("Error beim holen der Daten");
+                    });
+                    alert("first name: " + this.boatList[0].name);
+                    //this.boatService.getHello().subscribe(data => this.dataBuffer = data)
                 };
                 BoatComponent.prototype.readBoats = function () {
                     alert("writing boat data to local storage...");
-                    var list = ['Albatros', 'Hauke Gay', 'Voyager'];
-                    for (var x in list) {
-                        this.boatList[x] = { id: x, name: list[x], owner: 'JoAnis', image: "https://keyassets.timeincuk.net/inspirewp/live/wp-content/uploads/sites/18/2019/03/sunseeker-predator-50-boat-test-running-shot-credit-richard-langdon.jpg" };
-                    }
                     alert("boat data copied. number of entries: " + this.boatList.length);
                 };
                 BoatComponent.prototype.openDetails = function (id) {
@@ -505,6 +552,9 @@
                 };
                 return BoatComponent;
             }());
+            BoatComponent.ctorParameters = function () { return [
+                { type: _boat_loader_service__WEBPACK_IMPORTED_MODULE_2__["BoatLoaderService"] }
+            ]; };
             BoatComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
                 Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
                     selector: 'app-boat',
@@ -512,44 +562,6 @@
                     styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./boat.component.css */ "./src/app/boat/boat.component.css")).default]
                 })
             ], BoatComponent);
-            /***/ 
-        }),
-        /***/ "./src/app/chat/chat.component.css": 
-        /*!*****************************************!*\
-          !*** ./src/app/chat/chat.component.css ***!
-          \*****************************************/
-        /*! exports provided: default */
-        /***/ (function (module, __webpack_exports__, __webpack_require__) {
-            "use strict";
-            __webpack_require__.r(__webpack_exports__);
-            /* harmony default export */ __webpack_exports__["default"] = ("\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2NoYXQvY2hhdC5jb21wb25lbnQuY3NzIn0= */");
-            /***/ 
-        }),
-        /***/ "./src/app/chat/chat.component.ts": 
-        /*!****************************************!*\
-          !*** ./src/app/chat/chat.component.ts ***!
-          \****************************************/
-        /*! exports provided: ChatComponent */
-        /***/ (function (module, __webpack_exports__, __webpack_require__) {
-            "use strict";
-            __webpack_require__.r(__webpack_exports__);
-            /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ChatComponent", function () { return ChatComponent; });
-            /* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
-            /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
-            var ChatComponent = /** @class */ (function () {
-                function ChatComponent() {
-                }
-                ChatComponent.prototype.ngOnInit = function () {
-                };
-                return ChatComponent;
-            }());
-            ChatComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
-                Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
-                    selector: 'app-chat',
-                    template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./chat.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/chat/chat.component.html")).default,
-                    styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./chat.component.css */ "./src/app/chat/chat.component.css")).default]
-                })
-            ], ChatComponent);
             /***/ 
         }),
         /***/ "./src/environments/environment.ts": 
@@ -604,7 +616,7 @@
           \***************************/
         /*! no static exports found */
         /***/ (function (module, exports, __webpack_require__) {
-            module.exports = __webpack_require__(/*! C:\Users\gross\webeng2\web-app\src\main.ts */ "./src/main.ts");
+            module.exports = __webpack_require__(/*! /home/johannesz/Documents/WebServ/boatShopAng/boatShop/src/main.ts */ "./src/main.ts");
             /***/ 
         })
     }, [[0, "runtime", "vendor"]]]);

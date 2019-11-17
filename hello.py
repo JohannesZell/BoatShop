@@ -1,10 +1,10 @@
 from flask import Flask, send_from_directory, jsonify
+from flask_cors import CORS
 import os
 import json
 app = Flask(__name__)
-
-port = int(os.getenv('PORT', 8000))
-boat = {}
+#CORS(app)
+port = int(os.getenv('PORT', 8000)) 
 
 @app.route('/')
 def root():
